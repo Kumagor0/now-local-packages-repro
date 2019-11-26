@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "now-local-packages-repro",
+  "build": {},
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node",
+      "config": {
+        "includeFiles": ["localDependency/**"]
+      }
+    }
+  ]
+}

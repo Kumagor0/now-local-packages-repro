@@ -1,0 +1,9 @@
+{
+  "name": "now-local-packages-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "local-dependency": "../local-dependency"
+  }
+}
